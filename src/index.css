@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-in-out;
+  -webkit-animation: fade-in 1s ease-in-out;
+}
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
+}
+
+.Hero {
+  display: flex;
+  background-color: tomato;
+  width: 100%;
+}
