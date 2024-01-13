@@ -6,7 +6,7 @@ const AuthLayout = (props) => {
     <div className="mb">
       <div className="text-left font-fontCustoms">
         <h1 className="text-3xl font-bold text-semiHijau ">{title}</h1>
-        <p className="text-sm font-medium text-slate-400 py-8 ">
+        <p className="text-sm font-medium text-slate-400 py-4 ">
           Welcome, please login for details
         </p>
         {children}

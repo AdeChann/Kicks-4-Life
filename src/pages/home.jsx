@@ -1,5 +1,4 @@
-import Card from "../components/Layouts/Card";
-import Caraousel from "../components/Layouts/Carousel";
+import Counter from "../components/Fragments/Counter";
 import Footer from "../components/Layouts/Footer";
 import Hero from "../components/Layouts/Hero";
 import Navbar from "../components/Layouts/Navbar";
@@ -9,6 +8,7 @@ const Home = () => {
     <div className="bg-putih">
       <Navbar />;
       <Hero />
+      <Counter />
       <Footer />
     </div>
   );

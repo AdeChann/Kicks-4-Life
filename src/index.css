@@ -18,9 +18,3 @@
 @layer base {
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
 }
-
-.Hero {
-  display: flex;
-  background-color: tomato;
-  width: 100%;
-}

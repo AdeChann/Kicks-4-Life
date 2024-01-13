@@ -9,16 +9,24 @@ const Navbar = () => {
   };
   return (
     <div className=" bg-putih font-fontCustoms flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4:">
-      <h1 className="w-full text-3xl font-bold text-semiHijau px-9 py-4 ">
+      <h1 className="w-full text-3xl font-bold text-semiOren px-9 py-4 cursor-pointer ">
         Kick 4 life
       </h1>
+
       {/* <img src={logo} className="w-full h-24 pr-8 mr-11" /> */}
-      <ul className="hidden sm:flex mr-8 text-lg">
-        <li className="p-4 mr-5">Home</li>
-        <li className="p-4 mr-5">Products</li>
-        <li className="p-4 mr-5">Services</li>
-        <li className="p-4 mr-5">AboutMe</li>
+
+      <ul className="hidden sm:flex mr-8 text-lg mx-auto">
+        <li className="p-4 mr-5 hover:text-semiOren hover:border-b-2 hover:border-semiHijau transition duration-300 ease-in-out">
+          Home
+        </li>
+        <li className="p-4 mr-5 hover:text-semiOren hover:border-b-2 hover:border-semiHijau transition duration-300 ease-in-out">
+          Products
+        </li>
+        <li className="p-4 mr-5 hover:text-semiOren hover:border-b-2 hover:border-semiHijau transition duration-300 ease-in-oute">
+          Services
+        </li>
       </ul>
+
       <div onClick={handleNav} className="block md:hidden pr-5">
         {!nav ? <AiOutlineMenu size={25} /> : <AiOutlineClose size={25} />}
       </div>
